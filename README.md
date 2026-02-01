@@ -1,6 +1,7 @@
 ## Scenario:
 This inverted pendulum with vertical base excitation is pretty interesting. An analysis can be done which shows that if ( )y t is oscillated harmonically at some frequency and amplitude, the pendulum will be stable and will return to a vertical up position after being displaced by some
 angle, θ.
+
 ![Scenario Drawing](Images/Schematic.png)
 ## Simulation:
 A time-step simulation modeling the above inverted pendulum system was created in Python in order to map the cart's amplitude-frequency parameter space and find stable systems. The parameter space was defined having its amplitude rangeing from -0.5 to 0.5 (negative amplitude indicating that the cart begins moving downward rather than upward) and frequency ranging from 0 to 100 Hz. For a given amplitude and frequency, a ten second simulation is performed for a maximum of 10 seconds with 1 ms time steps. Each simulation is scored by its time spent in the simulation, with stable systems reaching the max time and systems whose pendulum reaches a critical max angle (95 degrees used for the following results) are terminated early. Six initial displacement angles from the upright position were selected to investigate the stable behavior at high and low angles.
@@ -9,7 +10,7 @@ Stable simulations reached the maximum time spent in their simulations and are a
 ![Low Angle Heatmaps](Images/stability_heatmaps.png)
 Heatmaps for small initial displacements (10, 20, and 30 degrees)
 
-![Stable System Angle Over Time](Images/Angle Plot Y01 f20 A30.png)
+![Stable System Angle Over Time](Images/"Angle Plot Y01 f20 A30.png")
 Stable System Time Evolution
 
 ![Pseudo-Stable System](Images/Angle Plot Y01 f16 A30.png)
