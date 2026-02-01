@@ -10,20 +10,20 @@ Stable simulations reached the maximum time spent in their simulations and are a
 ![Low Angle Heatmaps](Images/stability_heatmaps.png)
 Heatmaps for small initial displacements (10, 20, and 30 degrees)
 
-![Stable System Angle Over Time](Images/"Angle Plot Y01 f20 A30.png")
+![Stable System Angle Over Time](Images/Angle_Plot_Y01_f20_A30.png)
 Stable System Time Evolution
 
-![Pseudo-Stable System](Images/Angle Plot Y01 f16 A30.png)
+![Pseudo-Stable System](Images/Angle_Plot_Y01_f16_A30.png)
 Pseudo-Stable System Time Evolution
 
 The same simulations were performed at higher initial angles and revealed more narrow stable regions and similar interesting behaviors.
-![Large Angle Heatmaps](Images/large angle heatmap.png)
+![Large Angle Heatmaps](Images/stablility_heatmaps_large_angle.png)
 Heatmaps for Large Initial Displacements (70, 80, 90 degrees)
 
-![80 Degree Stable System](Images/Angle plot Y-0.27 f387.15 A80.png)
+![80 Degree Stable System](Images/Angle_plot_Y-0.27_f387.15_A80.png)
 Stable System at 80 Degrees Initial Displacement
 
-![90 Degree Stable System](Images/Angle plot A90.png)
+![90 Degree Stable System](Images/Angle_plot_A90.png)
 Stable System at 90 Degrees Initial Displacement
 
 ## Comments
