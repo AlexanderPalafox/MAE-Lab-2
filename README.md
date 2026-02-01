@@ -20,7 +20,7 @@ Stable System Time Evolution
 Pseudo-Stable System Time Evolution
 
 The same simulations were performed at higher initial angles and revealed more narrow stable regions and similar interesting behaviors.
-![Large Angle Heatmaps](Images/stablility_heatmaps_large_angle.png)
+![Large Angle Heatmaps](Images/stability_heatmaps_large_angle.png)
 
 Heatmaps for Large Initial Displacements (70, 80, 90 degrees)
 
