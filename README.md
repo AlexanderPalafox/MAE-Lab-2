@@ -8,22 +8,28 @@ A time-step simulation modeling the above inverted pendulum system was created i
 ## Results:
 Stable simulations reached the maximum time spent in their simulations and are all colored white in the heatmaps below. The untable regions are colored according to their time-to-failure in the simulation, creating a red gradient. While investigating points along the region boundary, a new mode of stability revealed itself, neither converging to the upright position nor falling to chaotic movements, rather stabilizing in a horizontal alignment, nearly parallel to the ground. Because the lab assignment had defined stability as oscillating about the vertical position, these horizontally aligned situations will be referred to as "pseudo-stable" and are remapped to black pixels on the heatmaps below.
 ![Low Angle Heatmaps](Images/stability_heatmaps.png)
+
 Heatmaps for small initial displacements (10, 20, and 30 degrees)
 
 ![Stable System Angle Over Time](Images/Angle_Plot_Y01_f20_A30.png)
+
 Stable System Time Evolution
 
 ![Pseudo-Stable System](Images/Angle_Plot_Y01_f16_A30.png)
+
 Pseudo-Stable System Time Evolution
 
 The same simulations were performed at higher initial angles and revealed more narrow stable regions and similar interesting behaviors.
 ![Large Angle Heatmaps](Images/stablility_heatmaps_large_angle.png)
+
 Heatmaps for Large Initial Displacements (70, 80, 90 degrees)
 
 ![80 Degree Stable System](Images/Angle_plot_Y-0.27_f387.15_A80.png)
+
 Stable System at 80 Degrees Initial Displacement
 
 ![90 Degree Stable System](Images/Angle_plot_A90.png)
+
 Stable System at 90 Degrees Initial Displacement
 
 ## Comments
